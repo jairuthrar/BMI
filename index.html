@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Body Mass Index</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="content">
+    <form  onsubmit="event.preventDefault()" >
+        <h2>BMI</h2>
+        <div class="Weight">
+        <label for="Weight">Weight:</label>
+        <input type="text"   id="weight" placeholder="Enter your weight in KG">
+       </div>
+       <div>
+        <label for="Height">Height:</label>
+        <input type="text" id="height" placeholder="Enter your height in Mtrs">
+        <br>
+         <a href="https://jairuthrar.github.io/Length_converter/" target="_blank">Convert Your Height from CM to Mtr</a>
+    </div>
+        <button  type="button" onclick="BMI()">Calculate BMI</button>
+    
+   
+    <p id="result"></p>
+
+
+
+    
+
+    </form>
+</div>
+    <script src="script.js"></script>
+    
+</body>
+</html>
